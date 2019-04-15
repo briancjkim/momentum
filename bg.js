@@ -1,5 +1,5 @@
 const body = document.querySelector("body");
-const ImageNumber = 11;
+const ImageNumber = 7;
 
 function loadImages() {
   const randomNo = Math.floor(Math.random() * ImageNumber);

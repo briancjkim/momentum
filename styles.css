@@ -35,7 +35,7 @@ body {
     opacity: 0;
   }
   to {
-    opacity: 0.4;
+    opacity: 0.6;
   }
 }
 .bgImage-1 {
@@ -68,7 +68,7 @@ body {
   height: 100%;
   background-size: cover;
   background-position-y: center;
-  animation: fadeIn 1s linear forwards;
+  animation: fadeIn 1s ease-out forwards;
 }
 .js-clock {
   margin: 0;
@@ -114,5 +114,5 @@ body {
   position: absolute;
   top: 30px;
   font-size: 30px;
-  letter-spacing: 9px;
+  letter-spacing: 5px;
 }

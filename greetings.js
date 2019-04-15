@@ -8,7 +8,7 @@ const SHOWING_CN = "showing";
 const paintGreeting = text => {
   form.classList.remove(SHOWING_CN);
   greetings.classList.add(SHOWING_CN);
-  greetings.innerHTML = `Hello ${text}`;
+  greetings.innerHTML = `Welcome, ${text}`;
 };
 
 const saveName = text => {

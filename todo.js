@@ -55,13 +55,11 @@ function handleSubmit(e) {
 const loadToDos = () => {
   const loadedToDos = localStorage.getItem(TODOS_LS);
   const parsedToDos = JSON.parse(loadedToDos);
-  if (parsedToDos.length !== 0) {
-    console.log("has todos");
+  if (parsedToDos && parsedToDos.length !== 0) {
     parsedToDos.forEach(toDo => {
       paintToDo(toDo.text);
     });
   } else {
-    console.log("nothin");
     toDoForm.classList.add(SHOWING);
   }
 };

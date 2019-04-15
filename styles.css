@@ -71,7 +71,7 @@ body {
   letter-spacing: 3px;
 }
 
-form input {
+.form-input {
   margin-top: 50px;
   font-size: 20px;
   text-align: center;
@@ -82,8 +82,13 @@ form input {
   border: none;
   color: black;
   font-weight: 600;
+
+  background: white;
 }
-form input::placeholder {
+.form-input:focus {
+  text-decoration: underline;
+}
+.form-input::placeholder {
   font-weight: 600;
   letter-spacing: 3px;
 }
